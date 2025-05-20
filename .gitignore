@@ -172,3 +172,13 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# Ignore PyInstaller files
+/build/
+/dist/
+/*.spec
+
+# Ignore Excel outputs
+*.xlsx
+
+# Ignore local JAR and temp files
+*.jar
